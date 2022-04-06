@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- muestra el sitio correctamente según el dispositivo del usuario -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- muestra el sitio correctamente según el dispositivo del usuario -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/styles/style.css">
   <title>Reto 2 | Calculator app</title>
-
-  <!-- Siéntase libre de eliminar estos estilos o personalizarlos en su propia hoja de estilo.👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
 
-
-  
-  <div class="attribution">
-    Coded by <a href="#">KARVAROZ</a>.
-  </div>
+<body id="theme1">
+  <header>
+    <h1>calc</h1>
+    <div class="switch-style">
+      <span>THEME</span>
+      <div class="switch-box" id="circle-theme">
+        <div class="switch-button-text">
+          <span id="theme_1">1</span>
+          <span id="theme_2">2</span>
+          <span id="theme_3">3</span>
+        </div>
+        <div class="switch-button" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="screen">
+      <div class="historia1"></div>
+      <input type="text" class="result" aria-label="output" placeholder="0" disabled>
+    </div>
+    <div class="basic-functions">
+      <div class="col">
+        <button class="btnNum" value="7">7</button>
+        <button class="btnNum" value="4">4</button>
+        <button class="btnNum" value="1">1</button>
+        <button class="symbolType" value="decmal" aria-label="decimal">.</button>
+      </div>
+      <div class="col">
+        <button class="btnNum" value="8">8</button>
+        <button class="btnNum" value="5">5</button>
+        <button class="btnNum" value="2">2</button>
+        <button class="btnNum" value="0">0</button>
+      </div>
+      <div class="col">
+        <button class="btnNum" value="9">9</button>
+        <button class="btnNum" value="6">6</button>
+        <button class="btnNum" value="3">3</button>
+        <button class="symbolType" value="/">/</button>
+      </div>
+      <div class="col">
+        <button class="symbolType" value="del" id="del">DEL</button>
+        <button class="symbolType" value="+">+</button>
+        <button class="symbolType" value="-">-</button>
+        <button class="symbolType" value="*">x</button>
+      </div>
+      <div class="buttons">
+        <button id="reset" value="reset">RESET</button>
+        <button id="output" value="output" aria-label="output">=</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Coded by <a target="_blank" href="https://github.com/karvaroz">KARVAROZ</a>.
+    </div>
+  </footer>
 </body>
+
 </html>
