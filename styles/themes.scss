@@ -78,7 +78,7 @@ body#theme2 {
     background-color: $bg_theme2;
 
     header {
-        h2 {
+        h1 {
             color: $color_dark2;
         }
 
@@ -178,8 +178,8 @@ body#theme3 {
 
             #del,
             #reset {
-                color: #fff;
-                background-color: $bg_outputBtn3;
+                color: #ff0;
+                background-color: $bg_actionBtn3;
                 box-shadow: 0 0.19em 0em $shadow_actionBtn3;
             }
 

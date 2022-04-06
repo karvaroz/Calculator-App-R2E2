@@ -28,6 +28,7 @@ header {
     display: block;
     width: 50%;
     @include letter(1.5em, #fff);
+    font-size: 2rem;
   }
 
   .switch-style {
@@ -172,3 +173,4 @@ footer {
     @include letter(1rem, hsl(228, 45%, 44%));
   }
 }
+

@@ -35,7 +35,7 @@ body#theme2 {
   background-color: #e6e6e6;
 }
 
-body#theme2 header h2 {
+body#theme2 header h1 {
   color: #343429;
 }
 
@@ -123,8 +123,8 @@ body#theme3 main .basic-functions .symbolType {
 
 body#theme3 main .basic-functions #del,
 body#theme3 main .basic-functions #reset {
-  color: #fff;
-  background-color: #00decf;
+  color: #ff0;
+  background-color: #56077c;
   -webkit-box-shadow: 0 0.19em 0em #9511c5;
           box-shadow: 0 0.19em 0em #9511c5;
 }
