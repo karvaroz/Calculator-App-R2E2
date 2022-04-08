@@ -10,14 +10,14 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: transparent;
   min-width: 43em;
   max-width: 43em;
@@ -28,10 +28,9 @@ header {
 header h1 {
   display: block;
   width: 50%;
-  font-size: 1.5em;
-  color: #fff;
   font-family: "Spartan", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 header .switch-style {
@@ -40,23 +39,23 @@ header .switch-style {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   width: 50%;
 }
 
 header .switch-style span {
   display: block;
   padding: 0.5rem;
-  font-size: 0.8em;
-  color: #fff;
   font-family: "Spartan", sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
 }
 
 header .switch-style .switch-box {
@@ -77,14 +76,14 @@ header .switch-style .switch-box .switch-button-text {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   position: absolute;
   bottom: 0%;
@@ -92,9 +91,9 @@ header .switch-style .switch-box .switch-button-text {
 
 header .switch-style .switch-box .switch-button-text span {
   height: 3em;
+  font-family: "Spartan", sans-serif;
   font-size: 0.6rem;
   color: #fff;
-  font-family: "Spartan", sans-serif;
 }
 
 header .switch-style .switch-box .switch-button {
@@ -110,14 +109,14 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: transparent;
   margin: auto;
 }
@@ -128,14 +127,14 @@ main .screen {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 43em;
   padding: 1em;
   border-radius: 15px;
@@ -143,10 +142,10 @@ main .screen {
   transition: 1s ease;
 }
 
-main .screen .historia1 {
-  font-size: 1rem;
-  color: #dae5e5;
+main .screen .historial {
   font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  color: #eee5e5;
 }
 
 main .screen input[type="text"] {
@@ -155,9 +154,9 @@ main .screen input[type="text"] {
   text-align: end;
   margin: auto;
   padding: 0.3em;
+  font-family: "Spartan", sans-serif;
   font-size: 2.5rem;
   color: #fff;
-  font-family: "Spartan", sans-serif;
   background-color: transparent;
   border: none;
   outline: none;
@@ -166,10 +165,10 @@ main .screen input[type="text"] {
 main .basic-functions {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (4rem)[4];
-      grid-template-columns: repeat(4, 4rem);
-  -ms-grid-rows: (2rem)[5];
-      grid-template-rows: repeat(5, 2rem);
+  -ms-grid-columns: (4rem) [4];
+  grid-template-columns: repeat(4, 4rem);
+  -ms-grid-rows: (2rem) [5];
+  grid-template-rows: repeat(5, 2rem);
   gap: 1rem;
   margin-top: 2em;
   border-radius: 15px;
@@ -180,12 +179,12 @@ main .basic-functions {
 
 main .basic-functions button {
   width: 100%;
-  font-size: 1.5rem;
-  color: #686a64;
   font-family: "Spartan", sans-serif;
-  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #585a64;
+  padding: 0.5em;
   -webkit-box-shadow: 0 0.19em 0em #a99c97;
-          box-shadow: 0 0.19em 0em #a99c97;
+  box-shadow: 0 0.19em 0em #a99c97;
   border-radius: 5px;
   font-size: 1.3rem;
   border: none;
@@ -199,8 +198,8 @@ main .basic-functions .col {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 1rem;
 }
 
@@ -212,7 +211,7 @@ main .basic-functions #reset {
   font-size: 1.3rem;
   color: #fff;
   -webkit-box-shadow: 0 0.19em 0em #4e5a81;
-          box-shadow: 0 0.19em 0em #4e5a81;
+  box-shadow: 0 0.19em 0em #4e5a81;
 }
 
 main .basic-functions #output {
@@ -221,12 +220,12 @@ main .basic-functions #output {
   color: #fff;
   font-size: 1.3rem;
   -webkit-box-shadow: 0 0.19em 0em #902418;
-          box-shadow: 0 0.19em 0em #902418;
+  box-shadow: 0 0.19em 0em #902418;
 }
 
 main .basic-functions .btnNum {
   display: block;
-  background-color: #eae2db;
+  background-color: #eae3db;
 }
 
 main .basic-functions .buttons {
@@ -235,15 +234,16 @@ main .basic-functions .buttons {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 1rem;
+  margin-top: 1rem;
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1/5;
@@ -252,15 +252,39 @@ main .basic-functions .buttons {
 }
 
 footer .attribution {
-  color: #fff;
+  color: white;
   font-size: 11px;
   text-align: center;
-  padding: 1.6rem;
+  padding: 1.6em;
 }
 
 footer .attribution a {
-  font-size: 1rem;
-  color: #3e52a3;
   font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  color: #ff0;
+}
+
+@media (max-width: 500px) {
+  footer .attribution {
+    font-size: 11px;
+    padding: 1.6em;
+  }
+  footer .attribution a {
+    color: #ff0;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 350px) {
+  header {
+    min-width: 40em;
+    max-width: 40em;
+  }
+  main {
+    width: 40em;
+  }
+  main .screen {
+    width: 45em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

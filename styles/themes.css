@@ -30,7 +30,6 @@ body#theme1 main .basic-functions {
   background-color: #252d44;
 }
 
-/* Theme 2 */
 body#theme2 {
   background-color: #e6e6e6;
 }
@@ -55,7 +54,7 @@ body#theme2 main .screen {
   background-color: #eeeeee;
 }
 
-body#theme2 main .screen .historia {
+body#theme2 main .screen .historial {
   color: #383530;
 }
 
@@ -67,23 +66,22 @@ body#theme2 main .basic-functions {
   background-color: #d3cdcd;
 }
 
-body#theme2 .footer .attribution {
+body#theme2 footer .attribution {
   color: black;
   font-size: 11px;
   text-align: center;
   padding: 1.6em;
 }
 
-body#theme2 .footer .attribution a {
+body#theme2 footer .attribution a {
   color: blue;
 }
 
-/* Theme 3 */
 body#theme3 {
   background-color: #17062a;
 }
 
-body#theme3 header h2 {
+body#theme3 header h1 {
   color: #f1da45;
 }
 
@@ -103,7 +101,7 @@ body#theme3 main .screen {
   background-color: #1e0836;
 }
 
-body#theme3 main .screen .historia {
+body#theme3 main .screen .historial {
   color: orange;
 }
 
@@ -123,27 +121,27 @@ body#theme3 main .basic-functions .symbolType {
 
 body#theme3 main .basic-functions #del,
 body#theme3 main .basic-functions #reset {
-  color: #ff0;
+  color: #fff;
   background-color: #56077c;
   -webkit-box-shadow: 0 0.19em 0em #9511c5;
-          box-shadow: 0 0.19em 0em #9511c5;
+  box-shadow: 0 0.19em 0em #9511c5;
 }
 
 body#theme3 main .basic-functions #output {
   background-color: #00decf;
   color: #000;
   -webkit-box-shadow: 0 0.19em 0em #68f9f2;
-          box-shadow: 0 0.19em 0em #68f9f2;
+  box-shadow: 0 0.19em 0em #68f9f2;
 }
 
-body#theme3 .footer .attribution {
-  color: #fff;
+body#theme3 footer .attribution {
+  color: white;
   font-size: 11px;
   text-align: center;
   padding: 1.6em;
 }
 
-body#theme3 .footer .attribution a {
+body#theme3 footer .attribution a {
   color: #ff0;
 }
 /*# sourceMappingURL=themes.css.map */

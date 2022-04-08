@@ -18,7 +18,7 @@
   <header>
     <h1>calc</h1>
     <div class="switch-style">
-      <span>THEME</span>
+      <span>Theme</span>
       <div class="switch-box" id="circle-theme">
         <div class="switch-button-text">
           <span id="theme_1">1</span>
@@ -31,15 +31,17 @@
   </header>
   <main>
     <div class="screen">
-      <div class="historia1"></div>
-      <input type="text" class="result" aria-label="output" placeholder="0" disabled>
+      <div class="historial"></div>
+      <input type="text" class="result" aria-label="output" placeholder="0" disabled />
     </div>
     <div class="basic-functions">
       <div class="col">
         <button class="btnNum" value="7">7</button>
         <button class="btnNum" value="4">4</button>
         <button class="btnNum" value="1">1</button>
-        <button class="symbolType" value="decimal" aria-label="decimal">.</button>
+        <button class="symbolType" value="decimal" aria-label="decimal">
+          .
+        </button>
       </div>
       <div class="col">
         <button class="btnNum" value="8">8</button>
@@ -54,7 +56,9 @@
         <button class="symbolType" value="/">/</button>
       </div>
       <div class="col">
-        <button class="symbolType" value="del" id="del">DEL</button>
+        <button class="symbolType" id="del" value="del" aria-label="delete">
+          DEL
+        </button>
         <button class="symbolType" value="+">+</button>
         <button class="symbolType" value="-">-</button>
         <button class="symbolType" value="*">x</button>
@@ -67,11 +71,12 @@
   </main>
   <footer>
     <div class="attribution">
-      Coded by <a target="_blank" href="https://github.com/karvaroz">KARVAROZ</a>.
+      Challenge by
+      Coded by <a href="#">Karvaroz</a>.
     </div>
   </footer>
+  <script src="/scripts/index.js"></script>
   <script src="/scripts/animations.js"></script>
-  <script src="/scripts/calc.js"></script>
-</body>
+</body>>
 
 </html>
