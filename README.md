@@ -1,5 +1,7 @@
 # Frontend Mentor - Calculator app
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/37b13d87-4f27-4c75-b5db-c08770014ec4/deploy-status)](https://reto-2-karvaroz.netlify.app/)
+
 ![Vista previa del reto calculator app](./design/desktop-preview.jpg)
 
 ## Bienvenido! 👋
